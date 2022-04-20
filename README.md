@@ -4,7 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/@einride/hooks.svg)](https://www.npmjs.com/package/@einride/hooks)
 [![total npm downloads](https://img.shields.io/npm/dt/@einride/hooks.svg)](https://www.npmjs.com/package/@einride/hooks)
 
-Reusable React
+Reusable React hooks.
 
 ## Installation
 
