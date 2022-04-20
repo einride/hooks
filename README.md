@@ -20,7 +20,7 @@ yarn add @einride/hooks
 
 ## Usage
 
-Import the hooks you want to use from `@einride/hooks` and start using it!
+Import the hook you want to use from `@einride/hooks` and start using it!
 
 Take a look in the
 [hooks folder](https://github.com/einride/hooks/tree/main/src/hooks) to see
