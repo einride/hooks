@@ -26,8 +26,8 @@ jobs:
       - name: Review
         run: yarn review
 
-      # - name: Run semantic-release
-      #   run: yarn semantic-release
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #     NPM_TOKEN: ${{ secrets.EINRIDE_NPM_TOKEN }}
+      - name: Run semantic-release
+        run: yarn semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.EINRIDE_NPM_TOKEN }}
