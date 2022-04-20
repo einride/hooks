@@ -36,6 +36,12 @@
   "peerDependencies": {
     "react": ">=16.8.0"
   },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/einride/hooks.git"
