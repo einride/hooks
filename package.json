@@ -1,0 +1,44 @@
+{
+  "name": "@einride/hooks",
+  "version": "0.0.0-development",
+  "description": "Reusable React hooks",
+  "main": "./lib/main.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "commitlint": "commitlint --from origin/main --to HEAD",
+    "git-verify-nodiff": "./scripts/git-verify-nodiff.bash",
+    "lint": "eslint ./src/**/*.{ts,tsx}",
+    "prettier": "prettier --write .",
+    "review": "yarn install --frozen-lockfile && yarn commitlint && yarn prettier && yarn lint && yarn git-verify-nodiff && yarn build",
+    "test": "test"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "16.2.3",
+    "@commitlint/config-conventional": "16.2.1",
+    "@einride/eslint-plugin": "5.0.0",
+    "@einride/prettier-config": "1.2.0",
+    "@einride/tsconfig": "1.0.0",
+    "@types/react": "18.0.5",
+    "eslint": "8.13.0",
+    "prettier": "2.6.2",
+    "react": "18.0.0",
+    "semantic-release": "19.0.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/einride/hooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks"
+  ],
+  "author": "Filip Tammergård",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/einride/hooks/issues"
+  },
+  "homepage": "https://github.com/einride/hooks#readme"
+}
