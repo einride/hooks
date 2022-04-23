@@ -4,7 +4,7 @@ Thanks for showing interest in contributing to Einride Hooks!
 
 ## Pull Request Guidelines
 
-Einride UI is using the
+Einride Hooks is using the
 [Conventional Commits](https://www.conventionalcommits.org/) commit message
 convention.
 
