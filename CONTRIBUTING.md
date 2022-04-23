@@ -9,8 +9,8 @@ Einride Hooks is using the
 convention.
 
 All hooks should come with one hook file `useHook.ts` and one test file
-`useHook.test.ts` in a folder `useHook`. All hooks should be documented
-with appropriate [JSDoc](https://jsdoc.app/).
+`useHook.test.ts` in a folder `useHook`. All hooks should be documented with
+appropriate [JSDoc](https://jsdoc.app/).
 
 Before opening a PR, please make sure you get no errors when running
 `yarn review`.
