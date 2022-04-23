@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 
 /**
- * Subscribes to media queries and returns a boolean value indicating whether the media query matches.
+ * Subscribes to a media query and returns a boolean value indicating whether the media query matches.
  *
  * @param query The media query to match.
  */
