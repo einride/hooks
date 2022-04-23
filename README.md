@@ -26,6 +26,11 @@ Take a look in the
 [hooks folder](https://github.com/einride/hooks/tree/main/src/hooks) to see
 available hooks.
 
+## Contribute
+
+See
+[Contributing Guide](https://github.com/einride/hooks/blob/main/CONTRIBUTING.md).
+
 ## License
 
 MIT
