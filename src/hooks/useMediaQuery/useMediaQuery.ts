@@ -1,5 +1,10 @@
 import { useState, useEffect } from "react"
 
+/**
+ * Subscribes to media queries and returns a boolean value indicating whether the media query matches.
+ *
+ * @param query The media query to match.
+ */
 export const useMediaQuery = (query: string): boolean => {
   const [matches, setMatches] = useState(() => window.matchMedia(query).matches)
 

@@ -2,6 +2,7 @@ import { useState } from "react"
 
 /**
  * Manages boolean state. It provides open, close and toggle handlers and accepts optional onOpen and onClose callbacks. It can be used to manage controlled modals, popovers and other similar components.
+ *
  * @param initialState Controls whether the component's initial state is open or closed.
  * @param callbacks Contains onOpen and onClose callbacks that are called when the open or close handlers are called.
  */
