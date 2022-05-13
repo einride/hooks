@@ -2,6 +2,11 @@
 
 Thanks for showing interest in contributing to Einride Hooks!
 
+## Adding New Hooks
+
+Only hooks that are generally usable at Einride are added in this central hooks
+project.
+
 ## Pull Request Guidelines
 
 Einride Hooks is using the

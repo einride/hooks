@@ -4,17 +4,13 @@
 [![npm version](https://img.shields.io/npm/v/@einride/hooks.svg)](https://www.npmjs.com/package/@einride/hooks)
 [![total npm downloads](https://img.shields.io/npm/dt/@einride/hooks.svg)](https://www.npmjs.com/package/@einride/hooks)
 
-Reusable React hooks.
+Reusable React hooks
 
 ## Installation
 
 Install `@einride/hooks`:
 
 ```bash
-# npm
-npm install @einride/hooks
-
-# yarn
 yarn add @einride/hooks
 ```
 
