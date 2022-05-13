@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for showing interest in contributing to Einride Hooks!
+Thanks for showing interest in contributing to `@einride/hooks`!
 
 ## Adding New Hooks
 
@@ -9,7 +9,7 @@ project.
 
 ## Pull Request Guidelines
 
-Einride Hooks is using the
+`@einride/hooks` is using the
 [Conventional Commits](https://www.conventionalcommits.org/) commit message
 convention.
 
