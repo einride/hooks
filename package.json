@@ -6,10 +6,10 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "commitlint": "commitlint --from origin/main --to HEAD",
-    "git-verify-nodiff": "./scripts/git-verify-nodiff.bash",
-    "lint": "eslint ./src/**/*.{ts,tsx}",
-    "prettier": "prettier --write .",
-    "review": "yarn install --frozen-lockfile && yarn commitlint && yarn prettier && yarn lint && yarn test && yarn git-verify-nodiff && yarn build",
+    "format": "prettier --write .",
+    "format-check": "prettier --check .",
+    "lint": "eslint --ext .ts src/",
+    "review": "yarn install --frozen-lockfile && yarn commitlint && yarn format-check && yarn lint && yarn test && yarn build",
     "test": "vitest"
   },
   "devDependencies": {
