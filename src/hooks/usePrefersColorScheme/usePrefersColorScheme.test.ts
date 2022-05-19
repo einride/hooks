@@ -1,10 +1,10 @@
 import { renderHook } from "@testing-library/react"
 import { describe, expect, it, vi } from "vitest"
-import { useColorScheme } from "./usePrefersColorScheme"
+import { usePrefersColorScheme } from "./usePrefersColorScheme"
 
 describe("usePrefersColorScheme", () => {
   it("should return preferred color scheme", () => {
-    const { result } = renderHook(() => useColorScheme())
+    const { result } = renderHook(() => usePrefersColorScheme())
     expect(result.current).toBe("dark")
   })
 })
