@@ -457,10 +457,10 @@
   dependencies:
     "@cspotcode/source-map-consumer" "0.8.0"
 
-"@einride/eslint-plugin@5.1.0":
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/@einride/eslint-plugin/-/eslint-plugin-5.1.0.tgz#5c0b130f65141b5aa391110f6b1e7172ebec9f5c"
-  integrity sha512-9mEOtlPvWCosbkhP1DqrHWqikCmetE/ntN88UHa2isN9cf51JGY2Of5Vj/Aspo1Yu6WArNz5ekHq0WlDseT8fQ==
+"@einride/eslint-plugin@6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@einride/eslint-plugin/-/eslint-plugin-6.0.0.tgz#1541657cc8ca9134daaede9fadaa5164447b8de8"
+  integrity sha512-Fd5Kk3zalKR1b2COiz5dS65xt9JdqIuCzjvHNJX5cZXBKIn0wKDjYkOa4aySMjGu1/gEN2GxCysPlaCfaLCGQw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.21.0"
     "@typescript-eslint/parser" "5.21.0"
