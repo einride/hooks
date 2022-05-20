@@ -1,5 +1,5 @@
 import { useMediaQuery } from "../useMediaQuery/useMediaQuery"
 
-export const useReducedMotion = (): boolean => {
+export const usePrefersReducedMotion = (): boolean => {
   return useMediaQuery("(prefers-reduced-motion: reduce)")
 }

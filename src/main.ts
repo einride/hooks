@@ -1,5 +1,5 @@
-export { useColorScheme } from "./hooks/useColorScheme/useColorScheme"
 export { useDisclosure } from "./hooks/useDisclosure/useDisclosure"
 export type { UseDisclosureHandlers } from "./hooks/useDisclosure/useDisclosure"
 export { useMediaQuery } from "./hooks/useMediaQuery/useMediaQuery"
-export { useReducedMotion } from "./hooks/useReducedMotion/useReducedMotion"
+export { usePrefersColorScheme } from "./hooks/usePrefersColorScheme/usePrefersColorScheme"
+export { usePrefersReducedMotion } from "./hooks/usePrefersReducedMotion/usePrefersReducedMotion"
