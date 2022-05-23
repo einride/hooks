@@ -9,7 +9,7 @@ export const useMediaQuery = (query: string): boolean => {
   const [matches, setMatches] = useState(getInitialValue(query))
 
   useEffect(() => {
-    if ("matchMedia" in window) {
+    if (typeof window?.matchMedia === "function") {
       setMatches(window.matchMedia(query).matches)
 
       window
@@ -29,7 +29,7 @@ export const useMediaQuery = (query: string): boolean => {
 }
 
 const getInitialValue = (query: string): boolean => {
-  if ("matchMedia" in window) {
+  if (typeof window?.matchMedia === "function") {
     return window.matchMedia(query).matches
   }
 
