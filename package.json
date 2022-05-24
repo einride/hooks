@@ -8,7 +8,7 @@
     "commitlint": "commitlint --from origin/main --to HEAD",
     "format": "prettier --write .",
     "format-check": "prettier --check .",
-    "lint": "eslint --ext .ts src/",
+    "lint": "eslint --ext .ts .",
     "review": "yarn install --frozen-lockfile && concurrently --kill-others-on-fail 'yarn commitlint' 'yarn format-check' 'yarn lint' 'yarn test --run' 'yarn build'",
     "test": "vitest"
   },
