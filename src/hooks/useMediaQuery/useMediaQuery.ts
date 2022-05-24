@@ -29,7 +29,10 @@ export const useMediaQuery = (query: string): boolean => {
 }
 
 const getInitialValue = (query: string): boolean => {
-  if (typeof window?.matchMedia === "function") {
+  if (
+    typeof window !== "undefined" &&
+    typeof window?.matchMedia === "function"
+  ) {
     return window.matchMedia(query).matches
   }
 
