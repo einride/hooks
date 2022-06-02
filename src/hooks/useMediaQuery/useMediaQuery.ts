@@ -12,14 +12,10 @@ export const useMediaQuery = (query: string): boolean => {
     if (typeof window?.matchMedia === "function") {
       setMatches(window.matchMedia(query).matches)
 
-      window
-        .matchMedia(query)
-        .addEventListener("change", (event) => setMatches(event.matches))
+      window.matchMedia(query).addEventListener("change", (event) => setMatches(event.matches))
 
       return () =>
-        window
-          .matchMedia(query)
-          .removeEventListener("change", (event) => setMatches(event.matches))
+        window.matchMedia(query).removeEventListener("change", (event) => setMatches(event.matches))
     }
 
     return undefined
@@ -29,10 +25,7 @@ export const useMediaQuery = (query: string): boolean => {
 }
 
 const getInitialValue = (query: string): boolean => {
-  if (
-    typeof window !== "undefined" &&
-    typeof window?.matchMedia === "function"
-  ) {
+  if (typeof window !== "undefined" && typeof window?.matchMedia === "function") {
     return window.matchMedia(query).matches
   }
 
