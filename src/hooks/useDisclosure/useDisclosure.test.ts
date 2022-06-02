@@ -49,9 +49,7 @@ describe("useDisclosure", () => {
   it("calls correct handlers when toggle is called", () => {
     const onOpen = vi.fn()
     const onClose = vi.fn()
-    const { result } = renderHook(() =>
-      useDisclosure(true, { onOpen, onClose }),
-    )
+    const { result } = renderHook(() => useDisclosure(true, { onOpen, onClose }))
     expect(onOpen).toHaveBeenCalledTimes(0)
     expect(onClose).toHaveBeenCalledTimes(0)
     act(() => result.current.handlers.toggle())
