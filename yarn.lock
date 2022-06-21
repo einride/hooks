@@ -414,10 +414,10 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@einride/eslint-plugin@6.2.0":
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/@einride/eslint-plugin/-/eslint-plugin-6.2.0.tgz#c3980c53912ee33e42c58c9739926f7693068161"
-  integrity sha512-7RrQrCuei6taizeADn5zhAZQZ/BHAjzlxkG5J9I52d1O9u10YgLBpjckMdsriua4QXeL9A4xIaD72ucxK5FaZQ==
+"@einride/eslint-plugin@6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@einride/eslint-plugin/-/eslint-plugin-6.3.0.tgz#596b02379d62de262d7d3cdb9dfbcd51b7178066"
+  integrity sha512-WJD7aPtf96IN8sp9rwrdxu8MFA3A2jH5mGNsFkst+gTt857DoiyIfTMDUUKPMjXJlK4zsETnTV6eS4kRhtjwsQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.27.0"
     "@typescript-eslint/parser" "5.27.0"
