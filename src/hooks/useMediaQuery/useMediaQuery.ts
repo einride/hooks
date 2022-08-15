@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useCallback, useEffect, useState } from "react"
 
 /**
  * Subscribes to a media query and returns a boolean value indicating whether the media query matches.
@@ -7,19 +7,23 @@ import { useEffect, useState } from "react"
  */
 export const useMediaQuery = (query: string): boolean => {
   const [matches, setMatches] = useState(getInitialValue(query))
+  const onMediaQueryChange = useCallback((event: MediaQueryListEvent) => {
+    setMatches(event.matches)
+  }, [])
 
   useEffect(() => {
     if (typeof window?.matchMedia === "function") {
-      setMatches(window.matchMedia(query).matches)
+      const mediaQueryList = window.matchMedia(query)
 
-      window.matchMedia(query).addEventListener("change", (event) => setMatches(event.matches))
+      setMatches(mediaQueryList.matches)
 
-      return () =>
-        window.matchMedia(query).removeEventListener("change", (event) => setMatches(event.matches))
+      mediaQueryList.addEventListener("change", onMediaQueryChange)
+
+      return () => mediaQueryList.removeEventListener("change", onMediaQueryChange)
     }
 
     return undefined
-  }, [query])
+  }, [query, onMediaQueryChange])
 
   return matches
 }
