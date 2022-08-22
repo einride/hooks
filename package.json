@@ -2,7 +2,14 @@
   "name": "@einride/hooks",
   "version": "0.0.0-development",
   "description": "Reusable React hooks",
-  "main": "./dist/main.js",
+  "main": "./dist/cjs/main.js",
+  "module": "./dist/esm/main.js",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/main.js",
+      "require": "./dist/cjs/main.js"
+    }
+  },
   "scripts": {
     "build": "rollup --config",
     "commitlint": "commitlint --from origin/main --to HEAD",
