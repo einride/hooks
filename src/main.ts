@@ -1,3 +1,4 @@
+export { useDebouncedValue } from "./hooks/useDebouncedValue/useDebouncedValue"
 export { useDisclosure } from "./hooks/useDisclosure/useDisclosure"
 export type { UseDisclosureHandlers } from "./hooks/useDisclosure/useDisclosure"
 export { useMediaQuery } from "./hooks/useMediaQuery/useMediaQuery"
