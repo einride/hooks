@@ -1,7 +1,7 @@
 import typescript from "@rollup/plugin-typescript"
+import pkg from "./package.json" assert { type: "json" }
 
 export default {
-  external: ["react"],
   input: "src/main.ts",
   output: [
     {
@@ -13,5 +13,6 @@ export default {
       format: "esm",
     },
   ],
+  external: [...Object.keys(pkg.dependencies ?? {}), ...Object.keys(pkg.peerDependencies ?? {})],
   plugins: [typescript({ tsconfig: "./tsconfig.build.json" })],
 }
