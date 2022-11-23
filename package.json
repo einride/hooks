@@ -34,7 +34,7 @@
     "concurrently": "7.6.0",
     "eslint": "8.28.0",
     "jsdom": "20.0.3",
-    "prettier": "2.7.1",
+    "prettier": "2.8.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "rollup": "3.4.0",
