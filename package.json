@@ -2,16 +2,8 @@
   "name": "@einride/hooks",
   "version": "0.0.0-development",
   "description": "Reusable React hooks",
-  "main": "./dist/cjs/main.js",
-  "module": "./dist/esm/main.js",
-  "exports": {
-    ".": {
-      "import": "./dist/esm/main.js",
-      "require": "./dist/cjs/main.js"
-    }
-  },
   "scripts": {
-    "build": "rollup --config",
+    "build": "vite build",
     "commitlint": "commitlint --from origin/main --to HEAD",
     "format": "prettier --write .",
     "format-check": "prettier --check .",
@@ -37,7 +29,6 @@
     "prettier": "2.8.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "rollup": "3.9.1",
     "semantic-release": "20.0.2",
     "typescript": "4.9.4",
     "vite": "4.0.4",
@@ -46,9 +37,19 @@
   "peerDependencies": {
     "react": ">=16.8.0"
   },
+  "type": "module",
   "files": [
     "dist"
   ],
+  "main": "./dist/hooks.cjs",
+  "module": "./dist/hooks.js",
+  "types": "./dist/main.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/hooks.js",
+      "require": "./dist/hooks.cjs"
+    }
+  },
   "publishConfig": {
     "access": "public"
   },
