@@ -1,8 +1,8 @@
 /// <reference types="vitest" />
 /// <reference types="vite/client" />
+import { resolve } from "path"
 import typescript from "@rollup/plugin-typescript"
 import react from "@vitejs/plugin-react"
-import { resolve } from "path"
 import { defineConfig } from "vite"
 import pkg from "./package.json"
 
