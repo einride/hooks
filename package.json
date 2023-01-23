@@ -40,13 +40,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/hooks.js",
-  "module": "./dist/hooks.mjs",
-  "types": "./dist/main.d.ts",
+  "main": "./dist/main.cjs.js",
+  "module": "./dist/main.esm.js",
   "exports": {
     ".": {
-      "import": "./dist/hooks.mjs",
-      "require": "./dist/hooks.js"
+      "import": "./dist/main.esm.js",
+      "require": "./dist/main.cjs.js"
     }
   },
   "publishConfig": {
