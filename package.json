@@ -3,7 +3,7 @@
   "version": "0.0.0-development",
   "description": "Reusable React hooks",
   "scripts": {
-    "build": "vite build",
+    "build": "rollup --config",
     "commitlint": "commitlint --from origin/main --to HEAD",
     "format": "prettier --write .",
     "format-check": "prettier --check .",
