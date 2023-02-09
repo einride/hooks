@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useCallback, useState } from "react"
 
 /**
  * Manages boolean state. It provides open, close and toggle handlers and accepts optional onOpen and onClose callbacks. It can be used to manage controlled modals, popovers and other similar components.
@@ -12,24 +12,24 @@ export const useDisclosure = (
 ): UseDisclosureReturn => {
   const [isOpen, setIsOpen] = useState(initialState)
 
-  const open = (): void => {
-    if (!isOpen) {
-      setIsOpen(true)
-      callbacks?.onOpen?.()
-    }
-  }
+  const open = useCallback(() => {
+    setIsOpen((_isOpen) => {
+      if (!_isOpen) callbacks?.onOpen?.()
+      return true
+    })
+  }, [callbacks])
 
-  const close = (): void => {
-    if (isOpen) {
-      setIsOpen(false)
-      callbacks?.onClose?.()
-    }
-  }
+  const close = useCallback(() => {
+    setIsOpen((_isOpen) => {
+      if (_isOpen) callbacks?.onClose?.()
+      return false
+    })
+  }, [callbacks])
 
-  const toggle = (): void => {
+  const toggle = useCallback(() => {
     if (isOpen) close()
     else open()
-  }
+  }, [close, isOpen, open])
 
   return { isOpen, handlers: { open, close, toggle } }
 }
