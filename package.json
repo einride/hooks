@@ -14,7 +14,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.4.4",
     "@commitlint/config-conventional": "17.4.4",
-    "@einride/eslint-plugin": "6.21.0",
+    "@einride/eslint-plugin": "6.22.0",
     "@einride/prettier-config": "2.0.0",
     "@einride/tsconfig": "1.0.1",
     "@rollup/plugin-typescript": "11.0.0",
