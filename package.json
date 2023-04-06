@@ -50,21 +50,24 @@
       "require": "./dist/main.cjs.js"
     }
   },
-  "publishConfig": {
-    "access": "public"
+  "keywords": [
+    "react",
+    "hooks"
+  ],
+  "homepage": "https://github.com/einride/hooks#readme",
+  "bugs": {
+    "url": "https://github.com/einride/hooks/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Filip Tammergård",
+    "email": "filip.tammergard@einride.tech"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/einride/hooks.git"
   },
-  "keywords": [
-    "react",
-    "hooks"
-  ],
-  "author": "Filip Tammergård",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/einride/hooks/issues"
-  },
-  "homepage": "https://github.com/einride/hooks#readme"
+  "publishConfig": {
+    "access": "public"
+  }
 }
