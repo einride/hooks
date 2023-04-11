@@ -500,10 +500,10 @@
   resolved "https://registry.yarnpkg.com/@einride/prettier-config/-/prettier-config-2.0.0.tgz#eef883175acf0e894153f6fe1cbdc61b6d8582d3"
   integrity sha512-omxWJ8eQFoZ5vWqnlcEG1pw+PipsXyM/qIjLxhJOcWdxepasgybW4248slEQU8Rk767lBR+v61DTdIuxdFkb8g==
 
-"@einride/tsconfig@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@einride/tsconfig/-/tsconfig-1.0.1.tgz#cafa4961da534c2402a3902d2521ae58a2ca8fc9"
-  integrity sha512-ql2BspUJ61XIdQ5yu4zwTV55gVk0spaYRX6zwP4wDcpboEuP54h1nZWErKxikd9w8b/LeKjuxKn5OTS+F8jgdg==
+"@einride/tsconfig@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@einride/tsconfig/-/tsconfig-2.0.0.tgz#31f0c84ba4175bc8b8d61828650665f3f20da0d5"
+  integrity sha512-CvtSrb9BNY+52+AgBThlUtj+F0f11mYyxalnyyKv5ijjpD3K0f4DyWtdBo9j130nO9W+ULhQCDOKN36x9nJvBw==
 
 "@esbuild/android-arm64@0.17.12":
   version "0.17.12"
