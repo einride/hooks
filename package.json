@@ -68,6 +68,7 @@
     "url": "git+https://github.com/einride/hooks.git"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   }
 }
