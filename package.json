@@ -14,7 +14,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.6.6",
     "@commitlint/config-conventional": "17.6.5",
-    "@einride/eslint-plugin": "7.1.0",
+    "@einride/eslint-plugin": "7.1.1",
     "@einride/prettier-config": "2.1.0",
     "@einride/tsconfig": "2.0.1",
     "@rollup/plugin-typescript": "11.1.2",
@@ -26,7 +26,7 @@
     "concurrently": "8.2.0",
     "eslint": "8.44.0",
     "jsdom": "22.1.0",
-    "prettier": "2.8.8",
+    "prettier": "3.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "semantic-release": "21.0.7",
