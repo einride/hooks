@@ -428,10 +428,10 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@einride/eslint-plugin@7.1.1":
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/@einride/eslint-plugin/-/eslint-plugin-7.1.1.tgz#48ddaa06e1467bb9e030b5f96f4295a07bbd2668"
-  integrity sha512-0Y663c7JFF8haerIdaBXOpTgSwHXDuFyvBTXx1+YpStuE6ZO6LogruIid0ICOhQjm+elNuB29CZw31BsIB04eg==
+"@einride/eslint-plugin@7.1.2":
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/@einride/eslint-plugin/-/eslint-plugin-7.1.2.tgz#1f264ac8f2101d811a97da705dd2d4ddc4669f82"
+  integrity sha512-njHkum03bNASfWtOs3ftEqWuXpk3g/OIgauXrZ7jexBlhDaBEXKf6CjdsAfWKfyZR9vRtTNwQf6cZtYOcdZRnw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.61.0"
     "@typescript-eslint/parser" "5.61.0"
@@ -440,7 +440,7 @@
     eslint-plugin-deprecation "1.4.1"
     eslint-plugin-import "2.27.5"
     eslint-plugin-jsx-a11y "6.7.1"
-    eslint-plugin-prettier "5.0.0-alpha.2"
+    eslint-plugin-prettier "5.0.0"
     eslint-plugin-react "7.32.2"
     eslint-plugin-react-hooks "4.6.0"
 
@@ -2809,10 +2809,10 @@ eslint-plugin-jsx-a11y@6.7.1:
     object.fromentries "^2.0.6"
     semver "^6.3.0"
 
-eslint-plugin-prettier@5.0.0-alpha.2:
-  version "5.0.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.0.0-alpha.2.tgz#4dd7edf88ff9bc13a3bbd91c059aae267dac4576"
-  integrity sha512-F6YBCbrRzvZwcINw3crm1+/uX/i+rJYaFErPtwCfUoPLywRfY7pwBtI3yMe5OpIotuaiws8cd29oM80ca6NQSQ==
+eslint-plugin-prettier@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.0.0.tgz#6887780ed95f7708340ec79acfdf60c35b9be57a"
+  integrity sha512-AgaZCVuYDXHUGxj/ZGu1u8H8CYgDY3iG6w5kUFw4AzMVXzB7VvbKgYR4nATIN+OvUrghMbiDLeimVjVY5ilq3w==
   dependencies:
     prettier-linter-helpers "^1.0.0"
     synckit "^0.8.5"
