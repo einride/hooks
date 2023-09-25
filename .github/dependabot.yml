@@ -11,5 +11,5 @@ updates:
     schedule:
       interval: daily
     groups:
-      development-dependencies:
+      npm-development-dependencies:
         dependency-type: "development"
