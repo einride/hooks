@@ -12,8 +12,8 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.7.2",
-    "@commitlint/config-conventional": "17.7.0",
+    "@commitlint/cli": "17.8.0",
+    "@commitlint/config-conventional": "17.8.0",
     "@einride/eslint-plugin": "7.4.0",
     "@einride/prettier-config": "2.1.0",
     "@einride/tsconfig": "2.0.1",
