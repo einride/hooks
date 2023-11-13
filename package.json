@@ -12,7 +12,7 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "@commitlint/cli": "18.4.0",
+    "@commitlint/cli": "18.4.1",
     "@commitlint/config-conventional": "18.4.0",
     "@einride/eslint-plugin": "7.5.0",
     "@einride/prettier-config": "2.1.0",
@@ -26,7 +26,7 @@
     "concurrently": "8.2.2",
     "eslint": "8.53.0",
     "jsdom": "22.1.0",
-    "prettier": "3.0.3",
+    "prettier": "3.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "semantic-release": "22.0.7",
