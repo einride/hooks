@@ -12,8 +12,8 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "@commitlint/cli": "18.4.3",
-    "@commitlint/config-conventional": "18.4.3",
+    "@commitlint/cli": "18.4.4",
+    "@commitlint/config-conventional": "18.4.4",
     "@einride/eslint-plugin": "7.8.0",
     "@einride/prettier-config": "2.1.0",
     "@einride/tsconfig": "2.0.1",
@@ -32,7 +32,7 @@
     "semantic-release": "22.0.12",
     "typescript": "5.3.3",
     "vite": "5.0.10",
-    "vitest": "1.1.1"
+    "vitest": "1.1.2"
   },
   "peerDependencies": {
     "react": ">=16.8.0"
