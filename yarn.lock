@@ -484,10 +484,10 @@
   resolved "https://registry.yarnpkg.com/@einride/prettier-config/-/prettier-config-2.1.0.tgz#94cce87cf723788618e9709d547f53ece3b9c856"
   integrity sha512-j4wzUpTd27SsznbHcR8Vzx5Zdv95Nm9p+6NOzJVJHE0lHuJZL94Mq3TtgF1B4dUWLdPJ9muSW1i9xWA1o1OF0Q==
 
-"@einride/tsconfig@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@einride/tsconfig/-/tsconfig-2.0.1.tgz#40bbb12dddff31b4503048062493584a160d2287"
-  integrity sha512-jpy2gGu6gdAhDUOWLvElvQ8vxeknznkGVuiSbIGJ7QZpFFGRr0PVy/8DDdDlyXDTyuJWff5OiLS/LJMhWQ7slg==
+"@einride/tsconfig@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@einride/tsconfig/-/tsconfig-2.1.0.tgz#cd9e9c27d40d6fd3f945cc8c3768eb661432e1ef"
+  integrity sha512-FbXREZSZtPWUxMKzNyxrp3NxKGpBAVG7mshhsKuFKRsqW1d/7TzdoZOWpq2h/SBWHWe9LdaeJNTRbje4NHnmzA==
 
 "@esbuild/android-arm64@0.19.5":
   version "0.19.5"
@@ -1350,10 +1350,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@18.2.47":
-  version "18.2.47"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.47.tgz#85074b27ab563df01fbc3f68dc64bf7050b0af40"
-  integrity sha512-xquNkkOirwyCgoClNk85BjP+aqnIS+ckAJ8i37gAbDs14jfW/J23f2GItAf33oiUPQnqNMALiFeoM9Y5mbjpVQ==
+"@types/react@*", "@types/react@18.2.48":
+  version "18.2.48"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.48.tgz#11df5664642d0bd879c1f58bc1d37205b064e8f1"
+  integrity sha512-qboRCl6Ie70DQQG9hhNREz81jqC1cs9EVNcjQ1AU+jH6NFfSAhVVbrrY/+nSF+Bsk4AOwm9Qa61InvMCyV+H3w==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
