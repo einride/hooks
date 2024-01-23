@@ -12,13 +12,13 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "@commitlint/cli": "18.4.4",
-    "@commitlint/config-conventional": "18.4.4",
+    "@commitlint/cli": "18.5.0",
+    "@commitlint/config-conventional": "18.5.0",
     "@einride/eslint-plugin": "7.8.0",
     "@einride/prettier-config": "2.1.0",
     "@einride/tsconfig": "2.1.0",
     "@rollup/plugin-typescript": "11.1.6",
-    "@testing-library/jest-dom": "6.2.0",
+    "@testing-library/jest-dom": "6.2.1",
     "@testing-library/react": "14.1.2",
     "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
