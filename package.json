@@ -4,7 +4,7 @@
   "description": "Reusable React hooks",
   "scripts": {
     "build": "rollup --config",
-    "commitlint": "commitlint --from origin/main --to HEAD",
+    "commitlint": "commitlint --from origin/master --to HEAD",
     "format": "prettier --write .",
     "format-check": "prettier --check .",
     "lint": "eslint --ext .ts .",

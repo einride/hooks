@@ -18,12 +18,12 @@ yarn add @einride/hooks
 
 Import the hook you want to use from `@einride/hooks` and start using it!
 
-Take a look in the [hooks folder](https://github.com/einride/hooks/tree/main/src/hooks) to see
+Take a look in the [hooks folder](https://github.com/einride/hooks/tree/master/src/hooks) to see
 available hooks.
 
 ## Contribute
 
-See [Contributing Guide](https://github.com/einride/hooks/blob/main/CONTRIBUTING.md).
+See [Contributing Guide](https://github.com/einride/hooks/blob/master/CONTRIBUTING.md).
 
 ## License
 
